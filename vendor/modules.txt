@@ -1,7 +1,40 @@
+# github.com/common-nighthawk/go-figure v0.0.0-20200609044655-c4b36f998cf2
+## explicit
+github.com/common-nighthawk/go-figure
+# github.com/fatih/color v1.9.0
+## explicit
+github.com/fatih/color
 # github.com/inconshreveable/mousetrap v1.0.0
 github.com/inconshreveable/mousetrap
+# github.com/itrepablik/itrlog v1.0.3
+## explicit
+github.com/itrepablik/itrlog
+# github.com/itrepablik/kopy v1.0.3
+## explicit
+github.com/itrepablik/kopy
+# github.com/itrepablik/lumberjack v1.0.0
+github.com/itrepablik/lumberjack
+# github.com/itrepablik/sakto v1.0.5
+## explicit
+# github.com/mattn/go-colorable v0.1.4
+github.com/mattn/go-colorable
+# github.com/mattn/go-isatty v0.0.11
+github.com/mattn/go-isatty
 # github.com/spf13/cobra v1.1.1
 ## explicit
 github.com/spf13/cobra
 # github.com/spf13/pflag v1.0.5
 github.com/spf13/pflag
+# go.uber.org/atomic v1.6.0
+go.uber.org/atomic
+# go.uber.org/multierr v1.5.0
+go.uber.org/multierr
+# go.uber.org/zap v1.14.1
+go.uber.org/zap
+go.uber.org/zap/buffer
+go.uber.org/zap/internal/bufferpool
+go.uber.org/zap/internal/color
+go.uber.org/zap/internal/exit
+go.uber.org/zap/zapcore
+# golang.org/x/sys v0.0.0-20191026070338-33540a1f6037
+golang.org/x/sys/unix

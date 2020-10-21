@@ -1,0 +1,6 @@
+{"level":"info","ts":1603302041.533458,"msg":"Start compressing the directory or a folder:","src":"C:\\Users\\ism19\\go\\src\\github.com\\ismailraqi\\portfolio","dst":"C:\\Users\\ism19\\go\\src\\github.com\\ismailraqi\\zipedprotfolio","log_time":"Oct 21 2020 06:40:41 PM"}
+{"level":"info","ts":1603302044.139023,"msg":"Done compressing the directory or a folder:","dst":"C:\\Users\\ism19\\go\\src\\github.com\\ismailraqi\\zipedprotfolio\\portfolio.tar.gz","log_time":"Oct 21 2020 06:40:44 PM"}
+{"level":"info","ts":1603302363.3811176,"msg":"Start compressing the directory or a folder:","src":"C:\\dashboard","dst":"C:\\dash","log_time":"Oct-21-2020 06:46:03 PM"}
+{"level":"info","ts":1603302365.0611231,"msg":"Done compressing the directory or a folder:","dst":"C:\\dash\\dashboard.tar.gz","log_time":"Oct-21-2020 06:46:05 PM"}
+{"level":"info","ts":1603302429.7848382,"msg":"Start compressing the directory or a folder:","src":"C:\\dashboard","dst":"C:\\dash","log_time":"Oct-21-2020 06:47:09 PM"}
+{"level":"info","ts":1603302430.2288396,"msg":"Done compressing the directory or a folder:","dst":"C:\\dash\\dashboard.tar.gz","log_time":"Oct-21-2020 06:47:10 PM"}

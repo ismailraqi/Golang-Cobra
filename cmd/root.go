@@ -2,20 +2,24 @@ package cmd
 
 import (
 	"fmt"
+	"gorecover/config"
 	"os"
+
+	"github.com/common-nighthawk/go-figure"
 
 	"github.com/spf13/cobra"
 )
 
+var logDTFormat string = "Jan 02 2006 03:04:05 PM"
+
 var rootCmd = &cobra.Command{
-	Use:   "hugo",
-	Short: "Hugo is a very fast static site generator",
-	Long: `A Fast and Flexible Static Site Generator built with
-				  love by spf13 and friends in Go.
-				  Complete documentation is available at http://hugo.spf13.com`,
-	Run: func(cmd *cobra.Command, args []string) {
-		println("hello graviton")
-	},
+	Use:     config.AppName,
+	Short:   config.ShortDesc,
+	Long:    config.LongDesc,
+	Version: config.Version,
+	// Run: func(cmd *cobra.Command, args []string) {
+	// 	println("hello graviton")
+	// },
 }
 
 //Execute is the first func
@@ -24,4 +28,9 @@ func Execute() {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(1)
 	}
+}
+func init() {
+	// Display the app ASCII logo
+	myFigure := figure.NewFigure(config.AppDisplayName, "", true)
+	myFigure.Print()
 }
